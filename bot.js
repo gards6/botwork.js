@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '601050150:AAGuDwMDfua5O7hEwLSXSVem2MV8ZRazamc';
+const token = '<bot token from botfather >';
 
 //polling function inneficient and unrealiable
 //7/5/18 1:35PM try webhook function so that telegram api sends a message
