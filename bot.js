@@ -8,7 +8,7 @@ const token = '<bot token from botfather >';
 
 
 
-//const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/echo (.+)/, (msg, match) => {
   // 'msg' is the received Message from Telegram
